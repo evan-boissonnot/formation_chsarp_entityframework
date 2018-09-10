@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  testwcfcore:
+    image: ${DOCKER_REGISTRY}testwcfcore
+    build:
+      context: .
+      dockerfile: TestWCFCore/Dockerfile
