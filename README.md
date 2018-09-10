@@ -16,4 +16,8 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 Don't use the helping VS intellicode to add using EntityFrameworkCore.dll !
 
 
+Working projects to use the dotnet ef migrations add InitMigration : 
+- ClassLibrary1 (class library)
+- TestWCFCore (no prob web api)
+
 
